@@ -49,3 +49,9 @@ a:hover {
 .line:hover {
     background-color: lightblue;
 }
+
+input {
+    border-radius: 0;
+    border: 1px solid gray;
+    padding-left: 5px;
+}
