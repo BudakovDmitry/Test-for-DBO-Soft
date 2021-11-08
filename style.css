@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 700px;
+    margin: 100px auto;
+}
+
+.table {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+td, tr, th {
+    border: 2px solid #000;
+    padding: 5px;
+}
+
+td {
+    padding: 5px 10px;
+}
+
+.line:nth-child(5) {
+    color: red;
+}
+
+.line:nth-child(odd) {
+    background-color: lightgray;
+}
+
+.line td:last-child {
+    text-align: center;
+}
+
+.heading {
+    background-color: #000;
+    color: #fff;
+    border: 0;
+    height: 50px;
+    padding: 10px;
+}
+
+a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.line:hover {
+    background-color: lightblue;
+}

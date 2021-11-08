@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Test</title>
+</head>
+<body>
+    <div class="container">
+        <table class="table">
+            <tr class="heading">
+                <th>Название товара</th>
+                <th>Количество</th>
+                <th>Стоимость 1 ед.</th>
+                <th><a>Общая стоимость</a></th>
+            </tr>
+            <tr class="line">
+                <td>Красный носок</td>
+                <td><input type="text" class="inputNumberRed" value="1"></td>
+                <td><input type="text" class="inputPriceRed" value="3.2"></td>
+                <td class="totalCostRed"></td>
+            </tr>
+            <tr class="line">
+                <td>Синий носок</td>
+                <td><input type="text" class="inputNumberBlue" value="2"></td>
+                <td><input type="text" class="inputPriceBlue" value="4.22"></td>
+                <td class="totalCostBlue"></td>
+            </tr>
+            <tr class="line">
+                <td>Бесцветный носок</td>
+                <td><input type="text" class="inputNumberСolorless" value="0"></td>
+                <td><input type="text" class="inputPriceColorless" value="55"></td>
+                <td class="totalCostColorless"></td>
+            </tr>
+            <tr class="line">
+                <td colspan="3">Общая стоимость всех товаров</td>
+                <td class="totalCost"></td>
+            </tr>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
